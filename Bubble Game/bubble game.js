@@ -8,7 +8,7 @@ function getScore() {
 }
 
 function getNewHit() {
-  newHit = Math.floor(Math.random() * 10);
+  newHit = Math.floor(Math.random() * 189);
   document.querySelector("#hitval").textContent = newHit;
 }
 
