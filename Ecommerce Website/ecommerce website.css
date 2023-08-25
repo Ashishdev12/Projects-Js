@@ -69,11 +69,13 @@ nav {
   background-image: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
   /* clip-path: polygon(1% 0%, 99% 0%, 100% 99%, 0% 80%); */
   
+  
 }
 
 .sliderWrapper{
   display: flex;
   width: 500vw;
+  
 }
 
 .sliderItem{
@@ -82,6 +84,9 @@ nav {
   align-items: center;
   justify-content: center;
   position: relative;
+  background-color: black;
+  
+  
 }
 
 .sliderImage{
@@ -90,15 +95,15 @@ nav {
   z-index: 1;
 }
 
+
 .sliderbg{
   padding-top: 50px;
   width: 750px;
   height: 750px;
   border-radius: 50%;
   position: absolute;
-  
-  
 }
+
 
 .sliderTitle{
   position: absolute;
@@ -144,21 +149,21 @@ nav {
 }
 
 .sliderItem:nth-child(1) .sliderbg{
-  background-color: #141515; 
+  background-color: green; 
 }
 
 .sliderItem:nth-child(2) .sliderbg{
-  background-color: #32a865; 
+  background-color: yellow; 
 }
 
 .sliderItem:nth-child(3) .sliderbg{
-  background-color: #32a865; 
+  background-color: yellow; 
 }
 
 .sliderItem:nth-child(4) .sliderbg{
-  background-color: #32a865; 
+  background-color: white;
 }
 
 .sliderItem:nth-child(5) .sliderbg{
-  background-color: #32a865; 
+  background-color: yellow; 
 }
