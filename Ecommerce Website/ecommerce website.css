@@ -24,11 +24,13 @@ nav {
   background-color: #808080;
   padding: 10px 20px;
   border-radius: 10px;
+  
 }
 
 .serchInput{
   border: none;
   background-color: transparent;
+  
 }
 
 .serchInput::placeholder{
@@ -45,4 +47,118 @@ nav {
   font-size: 20px;
   border-bottom: 2px solid #008000;
   cursor: pointer;
+}
+
+/* Navbar Bottom */
+
+.navbarBottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.menuItem{
+  margin-right: 100px;
+  cursor: pointer;
+  color: #d3d3d3;
+  font-weight: 400;
+}
+
+.slider{
+  background-image: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+  /* clip-path: polygon(1% 0%, 99% 0%, 100% 99%, 0% 80%); */
+  
+}
+
+.sliderWrapper{
+  display: flex;
+  width: 500vw;
+}
+
+.sliderItem{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.sliderImage{
+  width: 850px;
+  height: 850px;
+  z-index: 1;
+}
+
+.sliderbg{
+  padding-top: 50px;
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
+  position: absolute;
+  
+  
+}
+
+.sliderTitle{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: #fff;
+  font-weight: 900;
+  font-size: 50px;
+  text-align: center;
+  z-index: 1;
+}
+
+.sliderprice{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: #fff;
+  font-weight: 300;
+  font-size: 50px;
+  text-align: center;
+  border: 1px solid #808080;
+  padding: 0px 10px ;
+  z-index: 1;
+}
+
+.buybutton{
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  color: #fff;
+  border: 1px solid #808000;
+  background-color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  border-radius: 2px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.buybutton:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.sliderItem:nth-child(1) .sliderbg{
+  background-color: #141515; 
+}
+
+.sliderItem:nth-child(2) .sliderbg{
+  background-color: #32a865; 
+}
+
+.sliderItem:nth-child(3) .sliderbg{
+  background-color: #32a865; 
+}
+
+.sliderItem:nth-child(4) .sliderbg{
+  background-color: #32a865; 
+}
+
+.sliderItem:nth-child(5) .sliderbg{
+  background-color: #32a865; 
 }
