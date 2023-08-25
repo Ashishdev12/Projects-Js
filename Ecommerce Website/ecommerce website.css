@@ -1,7 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-*{
+
+body{
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+}
 
+nav {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 50px;
+}
+
+.navbarTop{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  background-color: #808080;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.serchInput{
+  border: none;
+  background-color: transparent;
+}
+
+.serchInput::placeholder{
+  color: #d3d3d3;
+}
+
+.sneaker-logo{
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.limtedOffer {
+  font-size: 20px;
+  border-bottom: 2px solid #008000;
+  cursor: pointer;
 }
