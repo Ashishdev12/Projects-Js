@@ -68,6 +68,7 @@ nav {
 .slider{
   background-image: url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
   /* clip-path: polygon(1% 0%, 99% 0%, 100% 99%, 0% 80%); */
+  /* overflow: hidden; */
   
   
 }
@@ -84,14 +85,14 @@ nav {
   align-items: center;
   justify-content: center;
   position: relative;
-  background-color: black;
+  /* background-color: black; */
   
   
 }
 
 .sliderImage{
-  width: 850px;
-  height: 850px;
+  width: 700px;
+  height: 800px;
   z-index: 1;
 }
 
@@ -149,21 +150,41 @@ nav {
 }
 
 .sliderItem:nth-child(1) .sliderbg{
-  background-color: green; 
+  background-color: #369e62; 
 }
 
 .sliderItem:nth-child(2) .sliderbg{
-  background-color: yellow; 
+  background-color: rgb(135, 79, 191); 
 }
 
 .sliderItem:nth-child(3) .sliderbg{
-  background-color: yellow; 
+  background-color: #008080; 
 }
 
 .sliderItem:nth-child(4) .sliderbg{
-  background-color: white;
+  background-color: #6495ed;
 }
 
 .sliderItem:nth-child(5) .sliderbg{
-  background-color: yellow; 
+  background-color: #ffff00; 
+}
+
+.sliderItem:nth-child(1) .sliderprice{
+  background-color: #369e62; 
+}
+
+.sliderItem:nth-child(2) .sliderprice{
+  background-color: rgb(135, 79, 191); 
+}
+
+.sliderItem:nth-child(3) .sliderprice{
+  background-color: #008080; 
+}
+
+.sliderItem:nth-child(4) .sliderprice{
+  background-color: #6495ed;
+}
+
+.sliderItem:nth-child(5) .sliderprice{
+  background-color: #ffff00; 
 }
