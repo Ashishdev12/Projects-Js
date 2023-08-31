@@ -13,7 +13,7 @@ const products = [
       },
       {
         code: "darkblue",
-        img: "Image's/red and black sneakers-C.png",
+        img: "Image's/Jordon-13-Copy.png ",
       },
     ],
   },
@@ -24,11 +24,11 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "Image's/nike air jordan 4.webp",
+        img: "Image's/Jordon-4.png",
       },
       {
         code: "green",
-        img: "Image's/nike air jordan 4-C.webp",
+        img: "Image's/Jordon-4-Copy.png",
       },
     ],
   },
@@ -39,11 +39,11 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "Image's/nike air jordon 13.png",
+        img: "Image's/Jordon-13.png",
       },
       {
         code: "green",
-        img: "Image's/nike air jordon 13-C.png",
+        img: "Image's/red and black sneakers-C.png",
       },
     ],
   },
@@ -54,11 +54,11 @@ const products = [
     colors: [
       {
         code: "black",
-        img: "Image's/nike air jordon 7.webp",
+        img: "Image's/Jordon-7.png",
       },
       {
         code: "lightgray",
-        img: "Image's/nike air jordon 7-C.webp",
+        img: "Image's/air jordon ranging bull-C.png",
       },
     ],
   },
@@ -73,7 +73,7 @@ const products = [
       },
       {
         code: "black",
-        img: "Image's/air jordon ranging bull-C.png",
+        img: "Image's/Jordon-7-Copy.png",
       },
     ],
   },
