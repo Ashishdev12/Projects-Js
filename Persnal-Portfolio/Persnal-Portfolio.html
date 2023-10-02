@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Portfolio</title>
   <link rel="stylesheet" href="Persnal-Portfolio.css">
+  <link rel="stylesheet" href="persnal-portfolio-resposive.css">
   <script src="Persnal-Portfolio.js" defer></script>
   <script src="https://kit.fontawesome.com/b4141670a7.js" crossorigin="anonymous"></script>
 </head>
@@ -16,13 +17,15 @@
     <div class="container">
       <nav>
         <img src="Images/Name-logo.jpg" class="logo">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Service</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
         </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
       </nav>
       <div class="header-text">
         <p>Web Developer</p>
@@ -149,7 +152,7 @@
 
   <!-- -----------------portfolio------------------------- -->
 
-  <div class="portfolio">
+  <div id="portfolio">
     <div class="container">
       <h1 class="sub-title">My Work</h1>
       <div class="work-list">
@@ -218,12 +221,14 @@
         </div>
 
         <div class="contact-right">
-          <form>
+          <form name="submit-to-google-sheet">
             <input type="text" name="Name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
             <button type="submit" class="btn btn-2">Submit</button>
           </form>
+
+          <span id="msg"></span>
         </div>
       </div>
     </div>
